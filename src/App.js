@@ -35,6 +35,10 @@ function App() {
           setLoading(false);
         }
       });
+    const newFeature = () => {
+      console.log("welcome to the application");
+    };
+    newFeature();
   };
   return (
     <div className="App">
