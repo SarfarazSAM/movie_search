@@ -4,6 +4,7 @@ const defaultImg =
   "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg";
 
 const Movie = ({ movie }) => {
+  console.log("these are changes for temp branch");
   const poster = movie.Poster === "N/A" ? defaultImg : movie.Poster;
   return (
     <div className="movie">
