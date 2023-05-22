@@ -12,7 +12,6 @@ const Movie = ({ movie }) => {
       </div>
       <h4>{movie.Title}</h4>
       <p>({movie.Year})</p>
-      <p>({movie.Year})</p>
     </div>
   );
 };
