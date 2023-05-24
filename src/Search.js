@@ -19,7 +19,7 @@ const Search = ({ search }) => {
   };
 
   return (
-    <div className="container">
+    <div className="container search-container">
       <form className="form-inline my-4 justify-content-center">
         <div className="input-group">
           <input
@@ -31,7 +31,7 @@ const Search = ({ search }) => {
           />
           <div className="input-group-append">
             <button
-              className="btn btn-primary"
+              className="search-btn btn btn-primary"
               type="submit"
               onClick={searchFunction}
             >

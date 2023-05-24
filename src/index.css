@@ -5,10 +5,39 @@
   text-align: center;
 }
 /* navbar */
+.movies-container {
+  height: 70vh;
+}
+
 h1 {
   color: rgb(255, 255, 255);
 }
+
 /* card.img */
-/* .custom-card-img {
+.search-btn.btn.btn-primary {
+  font-weight: bold;
+  border: #333;
+  background-color: #333;
+}
+
+.search-btn.btn.btn-primary:hover,
+.search-btn.btn.btn-primary:active {
+  background-color: rgb(51, 51, 51);
+  border: #333;
+  box-shadow: none;
+  outline-color: rgb(51, 51, 51, 0.5);
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.custom-card-img {
   height: 300px;
-} */
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
