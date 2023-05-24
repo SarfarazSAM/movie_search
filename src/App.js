@@ -29,17 +29,13 @@ function App() {
       .then((data) => {
         if (data.Response === "True") {
           setMovies(data.Search);
-          console.log(data.Search);
+          // console.log(data.Search);
           setLoading(false);
         } else {
           setErrMessage(data.Error);
           setLoading(false);
         }
       });
-    const newFeature = () => {
-      console.log("welcome to the application");
-    };
-    newFeature();
   };
   return (
     <div className="App">

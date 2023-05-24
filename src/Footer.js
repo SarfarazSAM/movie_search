@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = (props) => {
   return (
-    <footer class="footer bg-dark">
-      <div class="container text-center p-3">
-        <span class="text-muted">{props.text}</span>
+    <footer className="footer bg-dark">
+      <div className="container text-center p-3">
+        <span className="text-muted">{props.text}</span>
       </div>
     </footer>
   );
