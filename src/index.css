@@ -1,94 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Roboto+Slab:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-align: center;
 }
-body {
-  font-family: "Josefin Sans", sans-serif;
-  /* font-family: "Roboto Slab", serif; */
+/* navbar */
+h1 {
+  color: rgb(255, 255, 255);
 }
-/* Header */
-.header {
-  background-color: black;
-  text-align: center;
-  padding: 20px 0;
-}
-.header a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-/* search  */
-.search {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  padding: 30px;
-}
-.search input[type="text"] {
-  font-size: 1rem;
-  padding: 10px;
-  width: 40%;
-}
-.search input[type="submit"] {
-  font-size: 1rem;
-  background-color: rgb(183, 171, 171);
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-}
-.search input[type="submit"]:hover {
-  background-color: rgb(183, 182, 182);
-  cursor: pointer;
-}
-
-/* movie */
-.movies {
-  width: 80%;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  place-content: center;
-  gap: 70px;
-  margin: 50px auto;
-}
-.movie {
-  width: 200px;
-}
-
-.img img {
-  width: 200px;
-  height: 250px;
-}
-
-/* mobile view */
-@media only screen and (max-width: 450px) {
-  .header h1 {
-    font-size: 1.5rem;
-  }
-  .search input[type="text"] {
-    width: 80%;
-  }
-  .movies {
-    grid-template-columns: auto;
-    margin-top: 20px;
-  }
-}
-/* tablet view */
-@media screen and (min-width: 451px) and (max-width: 750px) {
-  .search input[type="text"] {
-    width: 60%;
-  }
-  .movies {
-    grid-template-columns: auto auto;
-    gap: 50px;
-  }
-}
-/* laptop view  */
-@media screen and (min-width: 751px) and (max-width: 1050px) {
-  .movies {
-    grid-template-columns: auto auto auto;
-    gap: 60px;
-  }
-}
+/* card.img */
+/* .custom-card-img {
+  height: 300px;
+} */

@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = (props) => {
   return (
-    <div className="header">
-      <a href="/">
+    <div className="nav p-2 justify-content-center bg-black">
+      <a className="nav-link active text-#ffffff" href="/">
         <h1>{props.text}</h1>
       </a>
     </div>
